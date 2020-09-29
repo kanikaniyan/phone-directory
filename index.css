@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  color : #0797a2;
+  text-align : center;
+  padding : 20px;
+}
+
+.password {
+  padding : 15px;
+  padding-right : 80px;
+  border-color : lightgrey;
+  border-radius: 5px;
+  font-size : 15px;
+}
+
+#progressBar {
+  margin-left : 0px;
+}
+
+#progressStatus {
+  color : #cd5c5c;
+}
+
+.App {
+  border: 3px solid #ccc;
+  margin : auto;
+  width : 40%;
+  padding-bottom : 30px;
+  margin-top : 14%;  
+}
+
+.req {
+  margin-left : 105px;
+  font-size : 15px;
+  color : #aaa;
+}
+
+ul li:before {
+  content : 'x';
+}
